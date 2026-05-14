@@ -19,7 +19,7 @@ const ThemeToggle = () => {
 
   return (
     <button
-      onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+      onClick={() => setTheme(resolvedTheme === "dark" ? "" : "dark")}
       className="p-2 rounded-xl bg-[#393E46]/50 border border-gray-700 text-[#00ADB5] transition-all hover:scale-110 shadow-lg flex items-center justify-center"
       aria-label="Toggle Theme"
     >
